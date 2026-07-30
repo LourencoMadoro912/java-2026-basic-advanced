@@ -10,8 +10,8 @@ public class Colecoes {
         alunos.add(nome);
     }
 
-    public String mostrarAlunos(){
-        return alunos.toString();
+    public List<?> mostrarAlunos(){
+        return alunos;
     }
 
 
