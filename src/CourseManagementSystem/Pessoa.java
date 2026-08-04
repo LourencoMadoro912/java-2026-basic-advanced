@@ -15,6 +15,7 @@ public class Pessoa {
     public String getNome() {
         return nome;
     }
+    public int getIdade() {return idade;}
 
 
 
