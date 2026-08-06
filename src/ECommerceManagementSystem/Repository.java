@@ -10,7 +10,7 @@ public class Repository <T> {
         dados.add(obj);
     }
 
-    public List<T> getDados(){
+    public List<T> listar(){
          return dados;
 }
 }
