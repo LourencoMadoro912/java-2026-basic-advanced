@@ -5,4 +5,9 @@ public class Electronico extends  Produto{
         super(name,preco);
     }
 
+    @Override
+    public String toString(){
+        return "Electronicos: " +super.toString();
+    }
+
 }

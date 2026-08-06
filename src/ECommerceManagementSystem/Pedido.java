@@ -22,4 +22,10 @@ public class Pedido {
     public double calcularTotal(){
         return produtos.stream().mapToDouble(Produto::getPreco).sum();
     }
+
+    @Override
+    public String toString() {
+        return "Pedido do cliente: " + cliente.getNome() +
+                ", Produtos: " + produtos;
+    }
 }

@@ -6,7 +6,7 @@ import java.util.List;
 public class Repository <T> {
     private List <T> dados= new ArrayList<>();
 
-    public void listar(T obj){
+    public void guardarDados(T obj){
         dados.add(obj);
     }
 

@@ -1,3 +1,5 @@
+package oop_generics_colecoes_java;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,7 +14,7 @@ public class Generics {
 
         Generics g= new Generics();
 
-        //Lista com Generics
+        //Lista com oop_generics_colecoes_java.Generics
         List<String> name= new ArrayList<>();
         name.add("joao");
         name.add("jose");
