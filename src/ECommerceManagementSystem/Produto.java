@@ -5,6 +5,8 @@ public class Produto {
     private double preco;
 
     public Produto(String name, double preco){
+        if (name.isBlank() || name==null){throw new IllegalArgumentException("nome invalido");}
+        if (preco<=0){throw new IllegalArgumentException("preco invalido");}
         this.name=name;
         this.preco=preco;
     }
