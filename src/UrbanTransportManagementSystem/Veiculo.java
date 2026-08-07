@@ -5,6 +5,7 @@ public class Veiculo {
     private int capacidade;
 
     public  Veiculo(String placa, int capacidade){
+        if(capacidade<=0)throw new IllegalArgumentException("capacidade invalida");
         this.placa=placa;
         this.capacidade=capacidade;
     }
