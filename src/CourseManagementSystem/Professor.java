@@ -9,4 +9,9 @@ public class Professor extends Pessoa {
     public void apresentar(){
         System.out.println("apresentado professor: "+getNome());
     }
+
+    @Override
+    public String toString(){
+        return super.toString();
+    }
 }

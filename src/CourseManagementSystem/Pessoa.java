@@ -21,4 +21,9 @@ public class Pessoa {
 
     public  void  apresentar(){
     }
+
+    @Override
+    public String toString(){
+        return "nome: "+nome+" idade: "+idade;
+    }
 }
