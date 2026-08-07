@@ -1,8 +1,6 @@
 package UrbanTransportManagementSystem;
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 public class main {
     public static void main(String[] args) {
@@ -20,6 +18,14 @@ public class main {
         while (!filaEmbarque.isEmpty()){
             System.out.println("Embarcou: "+filaEmbarque.poll());
         }
+
+        //Registar rota pelo nome
+        Rota rota1=new Rota("centro");
+        rota1.adionarParagens("inchope");
+        rota1.adionarParagens("dondo");
+
+        Map<String,Rota> rotaMap=new HashMap<>();
+        rotaMap.put("centro",rota1);
 
     }
 }
