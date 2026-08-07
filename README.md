@@ -1,13 +1,13 @@
 🎯 Objetivo (PT)
-Consolidar os principais conceitos da linguagem.
+Fixar os principais conceitos da linguagem Java.
 
-Demonstrar aplicações práticas em cenários reais.
+Mostrar exemplos práticos aplicados em projetos reais.
 
-Servir como portfólio de aprendizado e evolução em Java.
+Construir um portfólio que evidencie evolução e aprendizado contínuo.
 
 🎯 Objective (EN)
-Consolidate the main concepts of the language.
+Strengthen the core concepts of Java.
 
-Demonstrate practical applications in real-world scenarios.
+Showcase practical examples applied to real projects.
 
-Serve as a portfolio of learning and evolution in Java.
+Build a portfolio that highlights continuous learning and growth.
