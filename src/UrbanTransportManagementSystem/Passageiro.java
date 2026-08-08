@@ -9,6 +9,10 @@ public class Passageiro {
         this.destino=destino;
     }
 
+    public String getDestino(){
+        return destino;
+    }
+
     public  String toString(){
         return "nome: "+nome+", destino: "+destino;
     }
