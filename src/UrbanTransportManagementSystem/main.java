@@ -9,7 +9,7 @@ public class main {
 
         Passageiro p1=new Passageiro("madoro","centro");
         Passageiro p2=new Passageiro("ferreira","dondo");
-        Passageiro p3=new Passageiro("lourenco","dondo");
+        Passageiro p3=new Passageiro("lourenco","centro");
 
         List<Passageiro> passageiros=List.of(p1,p2,p3);
 
@@ -32,5 +32,13 @@ public class main {
         passageiros.forEach(p->destinosUnicos.add(p.getDestino()));
         System.out.println("Destinos unicos; "+destinosUnicos);
 
+
+        //lambda e stream
+
+        passageiros.stream()
+                .filter(p->p.getDestino().equalsIgnoreCase("centro"))
+                .map(p->p.getNome().toUpperCase())
+                .sorted()
+                .forEach(System.out::println);
     }
 }

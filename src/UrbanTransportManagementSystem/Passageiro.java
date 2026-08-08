@@ -13,6 +13,10 @@ public class Passageiro {
         return destino;
     }
 
+    public String getNome(){
+        return nome;
+    }
+
     public  String toString(){
         return "nome: "+nome+", destino: "+destino;
     }
